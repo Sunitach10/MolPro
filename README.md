@@ -9,5 +9,7 @@ We implemented 2 Deep learning model name:Deep DTA and WideDTA to predict bindin
 
 Deep DTA-Using Deep learning architecture in identification of drug-target interactions (DTI) strength (binding affinity) using character-based sequence representation approach.
 
-WideDTA is a deep-learning based prediction model that employs chemical and biological textual sequence information-word-based sequence representation to predict binding affinity
+WideDTA is a deep-learning based prediction model that employs chemical and biological textual sequence information-word-based sequence representation to predict binding affinity.
+
+We evaluated our model on the KIBA data set (kinase inhibitors bioactive data).We used the filtered version of the KIBA dataset, in which each protein and ligand has at least ten interactions. KIBA set contains ligands-2111, and proteins-229.For more details refer Blog post.
  
