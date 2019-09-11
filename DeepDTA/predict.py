@@ -20,7 +20,7 @@ def predict(model3,test):
         out2.append(predict)
         # out2.append(preds_tensor)
         count += 1
-        if count == 5:
+        if count == 50:
             break
     return out2
 
